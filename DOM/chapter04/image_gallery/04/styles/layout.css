@@ -5,6 +5,7 @@ body {
   margin: 1em 10%;
 }
 h1 {
+
   color: #333;
   background-color: transparent;
 }
@@ -18,11 +19,17 @@ ul {
   padding: 0;
 }
 li {
-  float: left;
+  float: right;
   padding: 1em;
   list-style: none;
 }
 img {
+  float: right;
+  display:block;
+  clear: both;
+}
+p {
+  float: right;
   display:block;
   clear: both;
 }
